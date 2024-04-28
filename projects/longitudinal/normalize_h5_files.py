@@ -27,5 +27,5 @@ def normalize_and_save_data(directory):
                     normalized_file.create_dataset('kspace', data=normalized_data)
 
 # Example usage
-directory = "/work/souza_lab/amir/Data/h5/"
+directory = "/home/ai2lab/datasets/Dataset_C2/12_channel/h5/"
 normalize_and_save_data(directory)
